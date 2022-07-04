@@ -17,13 +17,14 @@ html, body{
 }
 
 body {
+
     background: url(../imagens/espaco.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 header {
     text-align: right;
-    margin:40px;
+    margin:;
 }
 
 li{
@@ -35,7 +36,7 @@ a {
     
     text-decoration: none;
     color:white;
-    border:2px solid rgb(44, 44, 192);
+    border:;
     padding: 10px;
     border-radius: 15px;
 }
@@ -48,7 +49,7 @@ a:hover{
 
 main {
     position: relative;
-    height: 100vh;
+    height: 90vh;
 }
 
 section#espaco{
@@ -57,7 +58,7 @@ section#espaco{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 600px;
+    height: 508px;
     width: 500px;
 
     background: url(../imagens/astronauta.png) no-repeat top center;
