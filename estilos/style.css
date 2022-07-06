@@ -23,12 +23,19 @@ body {
 }
 header {
     text-align: right;
-    margin:;
 }
 
 li{
     display: inline-block;
     margin: 10px;
+}
+
+img {
+    width: 435px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 a {
@@ -51,15 +58,3 @@ main {
     height: 90vh;
 }
 
-section#espaco{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    height: 508px;
-    width: 500px;
-
-    background: url(../imagens/astronauta.png) no-repeat top center;
-    background-attachment: fixed;
-}
